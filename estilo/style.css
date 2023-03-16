@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'robot';
+    src: url(fontes/idroid.otf);
+}
+body{
+    text-align: justify;
+    background-color: #c5ebd6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header{
+    color: white;
+    background-image: linear-gradient(to bottom, #63E19A,#285C3F);
+    padding: 10px;
+    border: 10px;
+    text-align: center;
+}
+header > h1{
+    font-family: "Bebas+Neue";
+}
+nav{
+    text-align: left;
+}
+nav > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+}
+nav > a:hover{
+    background-color: rgb(64, 168, 54);
+    padding: 11px;
+}
+main{
+    background-color: white;
+    margin: 0px 70px;
+    padding: 1px 17px;
+}
+.tema{
+    font-family: 'robot';
+    color: #137420;
+}
+.link{
+    background-color: #55ca64;
+    color:#094611;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #55ca64;
+}
+h3{
+    font-family: 'robot';
+    background-color: #37c54a;
+}
+.imagem-ajuste{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+iframe{
+    background-color: #094611;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+footer{
+    background-color: white;
+    margin: 0px 70px;
+    padding: 1px 17px;
+}
+aside{
+    text-align: justify;
+    background-color: #8cf099;
+    border-radius: 15px;
+}
+aside > h2{
+    color: white;
+    background-color: #094611;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+aside > p{
+    padding: 0px 17px 13px 17px;
+}
+  
